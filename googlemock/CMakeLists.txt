@@ -83,12 +83,10 @@ endif()
 # a user aggressive about warnings.
 cxx_library(gmock
             "${cxx_strict}"
-            "${gtest_dir}/src/gtest-all.cc"
             src/gmock-all.cc)
 
 cxx_library(gmock_main
             "${cxx_strict}"
-            "${gtest_dir}/src/gtest-all.cc"
             src/gmock-all.cc
             src/gmock_main.cc)
 
